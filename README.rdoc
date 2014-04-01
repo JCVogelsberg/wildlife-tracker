@@ -1,28 +1,6 @@
-== README
+== Wildlife Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* The Forest Service is considering a proposal from a timber company to clear-cut an old-growth forest of virgin redwood just outside of Portland. Before they give the go-ahead, they need to do an environmental impact study. They've asked you and your pair to build an app so that the rangers can report wildlife sightings.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Start out by letting users CRUD/L (create, read, update, destroy, list) species.
+* Next, allow them to input a sighting of an animal, along with the date, time, and location. (Hint: a species has many sightings.) Add CRUD functionality for these sightings.

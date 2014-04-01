@@ -1,4 +1,5 @@
 Wildlife::Application.routes.draw do
+ match('/', {via: :get, to: 'species#index'})
  match('species', {:via => :get, :to => 'species#index'})
  match('species', {:via => :get, :to => 'sightings#index'})
  match('species', {:via => :post, :to => 'species#create'})
