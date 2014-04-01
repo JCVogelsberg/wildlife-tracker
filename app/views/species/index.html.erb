@@ -1,0 +1,18 @@
+<h1>Species List</h1>
+
+<ul>
+  <% @species.each do |i| %>
+    <li><a href="/species/<%= i.id %>"><%= i.name %></a></li>
+  <% end %>
+</ul>
+
+<br>
+<br>
+<h2>Add a species here:</h2>
+
+<form action="/species" method="post">
+  <label for="species_name">Name</label>
+  <input id="species_name" name="name" type="text" >
+  <button>Add Species</button>
+</form>
+

@@ -1,0 +1,26 @@
+<h1><%= @species.name %></h1>
+
+<p>All Reported Sightings:</p>
+<ul>
+  <% @species.sightings.each do |i| %>
+    <li><%= i.location %></a></li>
+  <% end %>
+</ul><br>
+
+
+<p><a href="/species/<%= @species.id %>/edit">Edit a Species</a></p>
+
+<p><a href="/species/<%= @species.id %>"
+      data-confirm="Are you Sure?"
+      data-method="Delete"
+      rel="nofollow">Delete</a></p>
+
+<a href="/species/<%= @species.id %>/sightings/new">Add Sighting</a>
+<a href="/species/<%= @species.id %>/sightings/new"List Sightings</a>
+
+<br>
+<br>
+<br>
+<p><a href="/species">Return to Species Listings</a></p>
+
+
