@@ -11,7 +11,7 @@ impact study. They've asked you and your pair to build an app so that the ranger
 
 To set up:
 
--Clone the repo on your local machine `$ git clone https://github.com/JCVogelsberg/wildlife_tracker_rails.git`
+-Clone the repo on your local machine `$ https://git clone https://github.com/JCVogelsberg/wildlife_tracker_rails.git`
 
 -bundle gemfile
 
