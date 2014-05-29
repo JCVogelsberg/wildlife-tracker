@@ -7,7 +7,7 @@ impact study. They've asked you and your pair to build an app so that the ranger
 
 * Start out by letting users CRUD/L (create, read, update, destroy, list) species.
 * Next, allow them to input a sighting of an animal, along with the date, time, and location.
-------------------------------------------------------------------------------------------------------------
+
 
 To set up:
 
