@@ -2,7 +2,7 @@ Wildlife Tracker
 =================
 
 * The Forest Service is considering a proposal from a timber company to clear-cut an old-growth forest 
-of virgin redwood just outside of Portland. Before they give the go-ahead, they need to do an environmental 
+of virgin redwood just outside of Portland, OR. Before they give the go-ahead, they need to do an environmental 
 impact study. They've asked you and your pair to build an app so that the rangers can report wildlife sightings.
 
 * Let users CRUD/L (create, read, update, destroy, list) species.
